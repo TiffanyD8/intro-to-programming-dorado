@@ -57,6 +57,7 @@ Now, open the project directory in your code editor and continue to the next sec
 - [ ] Create a new date object and store it in a variable named `today`
   - hint: `new Date()` constructor
 - [ ] Retrieve the current year from your date object and store it in a variable named `thisYear`
+
   - hint: `getFullYear` method
 
 - [ ] Using "DOM Selection", select the `<footer>` element from the DOM and store it in a variable named `footer`
