@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Tiffany's Life Story</title>
 		<style>
 			body {background-color: powderblue;}
@@ -10,12 +10,12 @@
 		  </style>
 	</head>
 	<body>
-		<section>
-			<h1>About</h1>
-			<p>I love to travel and help others book their travel. I was a mainframe developer for 15 years.</p>
-		</section>
-		<section>
-			<h2>Experience</h2>
+	<section>
+		<h1>About</h1>
+		<p>I love to travel and help others book their travel. I was a mainframe developer for 15 years.</p>
+	</section>
+	<section>
+		<h2>Experience</h2>
 		<ul>
 			<li>Total Systems Services </li>
 			<li>Alfa Life Insurance</li> 
@@ -23,21 +23,33 @@
 			<li>Math Tutor</li> 
 			<li>T and J Travels</li> 
 		</ul>
-	    </section>
+	</section>
 	    <section id="skills">
-				<h2>Skills</h2>
-				<ul></ul>
-		</section>
-		<section>
-			<h1>Connect</h1>
+	    <h2>Skills</h2>
+	 	<ul></ul>
+	</section>
+	<section>
+		<h1>Connect</h1>
 		  <p><a href="https://github.com/TiffanyD8">My Github Page</a></p>
-		</section>
-			<div id="container">
-				<div class="content">
-				 COPYRIGHT @ 2022
-			  </div>
-			</div>
-		<footer></footer>	
-		<script src="index.js"></script>
-		</body>
+	</section>
+	<section>
+		<h2>Leave a Message</h2>
+		<form id="form" name="leave_message" action="" method="get">
+		<br><label for="name"> Enter Name: </label>
+            <input type="text" name="name" id="name" required placeholder="first name last name"></br>
+		<br><label for="email"> Enter Email: </label>
+            <input type="text" name="email" id="email" required placeholder="abc@email.com"></br>
+		<br><label>Leave a message here: </label>
+            <textarea name="message" id="message" required placeholder="Leave message here"></textarea></br>
+		<br><button type="submit"> Submit </button></br>
+		<br><button type="reset">Reset</button><br>
+		</form>
+	</section>
+	<section id="messages">
+		<h2>Messages</h2>
+		<ul></ul>
+	</section>
+	<footer></footer>	
+	<script src="index.js"></script>
+	</body>
 </html>
