@@ -1,11 +1,11 @@
 
-body {background-color: powderblue;
+body {background-color: rgb(0, 0, 228);
       font-family: verdana;
 }	
 p {font-family: "Sofia", sans-serif; font-size: 20px; margin: 5px; padding: 5px;}
-h1 {color: red; font-size: 30px;}
-h2 {color: royalblue; font-size: 30px;}
-ul {color: purple;}
+h1 {color: rgb(214, 97, 19); font-size: 30px;}
+h2 {color: orangered; font-size: 30px;}
+ul {color: white;}
 section {margin: 5px; padding: 5px;}
 div {
     font-family: "Sofia", sans-serif; 
@@ -18,9 +18,11 @@ div {
   input, textarea{color: green; font-size: 20px; padding: 10px;border: blue;}
   label.name{margin: 15px; padding: 10px;}
   button{background-color: rgb(19, 175, 214); padding: 20px; margin: 20px}
-  .messages{font-family: "Sofia", sans-serif; 
+  .messages{font-family: "Sofia", sans-serif; color: orangered;
     padding: 10px;
     text-align: right;
     margin-bottom: 5px;
     display: inline-block}
-footer{background-color: rgb(214, 19, 139); padding: 20px; margin: 20px; text-align: center;}
+footer{background-color:  orangered; padding: 20px; margin: 20px; text-align: center;}
+a{color: orangered;}
+p{color: white;}
