@@ -3,42 +3,117 @@
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Tiffany's Life Story</title>
-		  <link rel="stylesheet" href="index.css">
-		  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+		 <link rel="stylesheet" href="index.css">
+		 <link rel="stylesheet" href="index.js">
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 
+		 <img src="/HeadShotTC.jpg" class="image1" width="250" height="250">
+		 <p class="myname"> Tiffany Dubose Cooper </p>
+		 <p class="welcome "> WELCOME AND THANKS FOR STOPPING BY!!! </p>
+		 <img src="Mainframe-Programming pic.jpg" class="image2" width="150" height="150">
+		 <img src="/primerica.jpg" class="image3" width="150" height="150">
+		 <img src="/travel-04.jpg" class="image4" width="150" height="150">
+		 <img src="networkpic.jpg" class="image5" width="150" height="150">
+
+		 <nav class="navbar">
+			<ul>
+			<li style="float:right"><a class="active" href="#messages">Messages</a></li>
+			<li style="float:right"><a class="active" href="#connect">Connect</a></li>
+			<li style="float:right"><a class="active" href="#skills">Skills</a></li>
+			<li style="float:right"><a class="active" href="#projects">Projects</a></li>
+			<li style="float:right"><a class="active" href="#experience">Experience</a></li>
+			<li style="float:right"><a class="active" href="#about">About</a></li>
+		</ul>
+		</nav>
+		
+		<style>
+			.fa {
+			  padding: 20px;
+			  font-size: 30px;
+			  width: 50px;
+			  text-align: center;
+			  text-decoration: none;
+			  margin: 5px 2px;
+			  border-radius: 50%;
+			}
+			
+			.fa:hover {
+				opacity: 0.7;
+			}
+			
+			.fa-facebook {
+			  background: #3B5998;
+			  color: white;
+			}
+			
+			.fa-linkedin {
+			  background: #007bb5;
+			  color: white;
+			}
+						
+			.fa-github {
+			  background: #125688;
+			  color: white;
+			}
+			</style>
+
 	</head>
 	<body>
+		
 	<section>
-	<div>  
+	<div class="about">	
+		<section id="about">
 		<h1>About</h1>
-		<p>I love to travel and help others book their travel. I was a mainframe developer for 15 years.</p>
+		<p>I was a mainframe developer for 15 years. I am also a licensed life insurance Agent
+		   I enjoy tutoring in Math and have done so over twenty years. I also had the opportunity
+		   to teach Math for two years. In my spare time, I help famililes buy and build wealth by serving
+		   as a licensed life insurance agent, as well as, a travel agent, who assists others with their
+		   travel needs!!!
+		</p>
 	</div>
 	</section>
+	
 	<section>
-	<div>  
+	<div class="experience">
+		<section id="experience">
 		<h2>Experience</h2>
 		<ul>
-			<li>Total Systems Services </li>
-			<li>Alfa Life Insurance</li> 
-			<li>Bullock County School System</li> 
-			<li>Math Tutor</li> 
-			<li>T and J Travels</li> 
-		</ul>
+			<dl> Mainframe Developer </dl>
+			<dl> Licensed Life Insurance Agent </dl> 
+			<dl> Math Tutor </dl> 
+			<dl> Math Instructor </dl> 
+			<dl> Travel Agent </dl> 
+		</ul>	
 	</div>
-	</section>
-	<div>  
-	    <section id="skills">
-	    <h2>Skills</h2>
-	 	<ul></ul>
-	</div>
-	</section>
-	<section>
-	<div>  
+</section>
+
+<div class="skills"> 
+   <section id="skills">
+	    <h3>Skills</h3>
+ 		<ul></ul>
+</div>
+</section>
+
+<div class="projects">
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul></ul>
+</div>
+</section>
+
+  <section>
+  <div class="connect">  
+	<section id="connect">
 		<h1>Connect</h1>
-		  <p><a href="https://github.com/TiffanyD8">My Github Page</a></p>
-	</div>  
-	</section>
-	<section>
-	<div>  	
+		  <p><a href="https://github.com/TiffanyD8" class="fa fa-github"></a></p>
+          <p><a href="https://www.facebook.com/groups/1844291979126485" class="fa fa-facebook"></a></p>
+		  <p><a href="https://www.linkedin.com/in/tiffany-cooper-a84652112/" class="fa fa-linkedin"></a></p>
+  </div>  
+  </section>
+  
+  <section>
+	<div class="leave_message"> 	
 		<h2>Leave a Message</h2>
 		<form id="form" name="leave_message" action="" method="get">
 		<br><label for="name"> Enter Name: </label>
@@ -46,18 +121,21 @@
 		<br><label for="email"> Enter Email: </label>
             <input type="text" name="email" id="email" required placeholder="abc@email.com"></br>
 		<br><label>Leave a message here: </label>
-            <textarea name="message" id="message" required placeholder="Leave message here"></textarea></br>
+            <textarea name="message" id="message" required placeholder="Leave A message Here"></textarea></br>
 		<br><button type="submit"> Submit </button></br>
 		<br><button type="reset">Reset</button><br>
 		</form>
 	</div>  
 	</section>
+
 	<section id="messages">
 	<div>  
 		<h2>Messages</h2>
 		<ul></ul>
 	</div>  
-	</section>
+	
+    </section>
+
 	<footer></footer>	
 	<script src="index.js"></script>
 	</body>

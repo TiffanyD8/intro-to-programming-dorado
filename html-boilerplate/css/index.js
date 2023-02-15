@@ -8,7 +8,8 @@ copyright.innerHTML = 'Tiffany ' + thisYear
 footer.appendChild(copyright)
 
 // add skills
-const skills = ['Assembler', 'COBOL', 'JCL', 'Microsoft Suite', 'Endevor', 'Eztrieve', 'Math Tutor', 'Travel Agent', 'Insurance Agent'];
+const skills = ['Assembler', 'Python', 'Javascript ','COBOL', 'JCL', 'Microsoft Suite', 'Endevor', 'Eztrieve', 
+'Term Life Insurance', 'Algebra', 'Geometry'];
 
 const skillsSection = document.getElementById('skills');
 console.log(skillsSection);
@@ -72,3 +73,5 @@ messageList.appendChild(newMessage);
 // this will reset the form
 event.target.reset();
 });
+
+

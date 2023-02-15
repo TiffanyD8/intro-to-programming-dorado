@@ -1,26 +1,183 @@
 
-body {background-color: powderblue;
-      font-family: verdana;
-}	
-p {font-family: "Sofia", sans-serif; font-size: 20px; margin: 5px; padding: 5px;}
-h1 {color: red; font-size: 30px;}
-h2 {color: royalblue; font-size: 30px;}
-ul {color: purple;}
-section {margin: 5px; padding: 5px;}
-div {
-    font-family: "Sofia", sans-serif; 
-    padding: 10px;
+head {
+    background-color: #F1F1F1;
     text-align: center;
-    margin-bottom: 5px;
-    display: inline-block;
-  }
-  label{color: orangered; font-size: 25px;}
-  input, textarea{color: green; font-size: 20px; padding: 10px;border: blue;}
-  label.name{margin: 15px; padding: 10px;}
-  button{background-color: rgb(19, 175, 214); padding: 20px; margin: 20px}
-  .messages{font-family: "Sofia", sans-serif; 
-    padding: 10px;
-    text-align: right;
-    margin-bottom: 5px;
-    display: inline-block}
-footer{background-color: rgb(214, 19, 139); padding: 20px; margin: 20px; text-align: center;}
+    padding: 20px;
+}
+
+body {
+  background-color: rgb(230, 217, 176);
+  font-family: verdana;
+}	
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}	
+
+.image1 {
+  border-radius: 50%;
+  margin: 20px; 
+  padding: 5px;
+}
+
+.image2 {
+  border-radius: 50%;
+  margin: 20px; 
+  padding: 5px;
+}
+
+.image3 {
+  border-radius: 50%;
+  margin: 20px; 
+  padding: 5px;
+}
+
+.image4 {
+  border-radius: 50%;
+  margin: 20px; 
+  padding: 5px;
+}
+
+.image5 {
+  border-radius: 50%;
+  margin: 20px; 
+  padding: 5px;
+}
+
+.myname {
+  font-family: "Sofia", sans-serif; 
+  color: red;
+  font-size: 40px;
+  margin: 10px; 
+}
+
+.welcome {
+  font-family: "Sofia", sans-serif; 
+  color: red;
+  font-size: 40px;
+  margin: 10px; 
+}
+
+p {
+  font-family: "Sofia", sans-serif; 
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+h1 {
+  color: red;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+}
+  
+.flex-container.p {
+  font-family: "Sofia", sans-serif; 
+  color: black;
+  font-size: 20px;
+  margin: 10px; 
+  padding: 10px;
+}
+
+h2 {
+  color: red; 
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color: red; 
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  color: red; 
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+li { 
+  border: 2px solid blue;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+ul.projects { 
+  border: 2px solid blue;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+dl { 
+  border-radius: 50%;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 5px;
+  
+  margin: 5px 2px;
+  flex: 1;
+}
+
+#experience, #skills, #projects,#connect, #leave_message {
+  font-family: "Sofia", sans-serif; 
+  text-align: center; 
+  margin-bottom: 5px;
+  padding: 20px;
+  display: flex;
+  float: center;
+}
+
+div {
+  font-family: "Sofia", sans-serif; 
+  padding: 10px;
+  text-align: right;
+  margin: auto;
+}
+
+#form {
+  font-family: "Sofia", sans-serif; 
+  padding: 10px;
+  text-align: right;
+  margin: auto;
+}
+
+button.submit{
+  background-color: rgb(207, 210, 211); 
+  padding: 10px; 
+  margin: 10px;
+  float: center;
+}
+
+button.reset{
+  background-color: red; 
+  padding: 10px; 
+  margin: 10px;
+  float: center;
+}
+  
+.messages{
+  font-family: "Sofia", sans-serif; 
+  text-align: left;
+}
+
+footer{
+  padding: 10px; 
+  margin: 10px; 
+  text-align: center;
+}
+
